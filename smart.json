@@ -4,7 +4,7 @@
   "homepage": "",
   "author": "Denis Erfurt",
   "version": "0.1.0",
-  "git": "",
+  "git": "https://github.com/mhhf/llmd.git",
   "packages": {
     "marked": {}
   }
