@@ -51,10 +51,13 @@ Template.llmd.helpers({
 
 
     var html = marked(text);
-    
+    console.log(html);
     
     // var HTML = Package.htmljs.HTML; // implied by `ui`
     // return HTML.Raw( html );
     return html;
+  },
+  applyMathJax: function(){
+    if( MathJax ) MathJax.Hub.Queue(["Typeset",MathJax.Hub]);
   }
 });
